@@ -1,15 +1,10 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import SignUp from "./components/signup";
-import SignUpPractice from "./components/SignUpPractice"
-import UseStateObject from "./components/UseStateObject";
-import TodoList from "./components/TodoList"
-
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,10 +17,7 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-     {/* <UseStateObject/> */}
-
-     <TodoList/>
+      </header>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background-color: bisque;
+}
+
+h1{
+  padding: 20px;
+  background-color: white;
+  border-radius:50px;
+
+}
+
+button{
+  background-color: blueviolet;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+
