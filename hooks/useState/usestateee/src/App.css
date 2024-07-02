@@ -23,4 +23,41 @@ button{
   font-weight: 900;
   font-size: 18px;
 }
+form {
+  background-color: rgb(164, 210, 238);
+  border-radius: 5px;
+  padding: 20px;
+  width: 360px;
+  margin: auto;
+  text-align: center;
 
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+label{
+  font-size: large;
+  color: blue;
+}
+
+.showData{
+  display: inline-flex;
+  background-color: rgb(59, 157, 243);
+  color: white;
+  border-radius: 8px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+
+}
+
+.showData p {
+  padding: 0px 10px;
+}

@@ -16,12 +16,19 @@ const biodata = [{
 
 const [myArray, setMyArray] = useState(biodata);
 
+
+console.log(myArray + "array");
+
 const clear = () => {
   setMyArray([]);
 }
 
 const removeElement = (id) => {
-
+  const newArray = myArray.filter((curEl) => 
+  {
+   return curEl.id =id;
+  })
+  setMyArray(newArray);
 }
 
   return (
@@ -30,7 +37,7 @@ const removeElement = (id) => {
   myArray.map((element) => { 
     return ( 
     <h1 className="">Name : {element.myName} & Age:{element.Age}
-    <button onClick={removeElement(element.id)}>Remove</button>
+    <button onClick={() => removeElement(element.id)}>Remove</button>
     </h1>)
     ;} )
 }    

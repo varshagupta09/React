@@ -3,7 +3,9 @@ import './App.css';
 import { useState } from 'react';
 import UseStateArray from './component/UseStateArray';
 import UseStateObject from './component/UseStateObject';
-
+import ShortCircuitEva from './component/ShortCircuitEva'
+import Basicform from './component/forms/basicform'
+ 
 function App() {
 
  const [Name, setName] = useState("varsha gupta");
@@ -23,7 +25,8 @@ function App() {
      {/* <h1>{Name}</h1> */}
       {/* <button onClick={changeName}>Click Me</button>  */}
       <UseStateArray/>
-     < UseStateObject/>
+     {/* < Basicform/> */}
+
     </div>
   );
 }

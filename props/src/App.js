@@ -24,9 +24,7 @@ Tailwind Test    </h1>
 
 <Card channel="reaxct"
 imgsrc="https://images.pexels.com/photos/6869554/pexels-photo-6869554.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" />
-<Card/>
 
-<Card/>
 
 
 
